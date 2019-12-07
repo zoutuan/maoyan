@@ -1,0 +1,10 @@
+[
+    {
+      "label": "正在热映",
+      "to": "/home/movie/hot"
+    },
+    {
+      "label": "即将上映",
+      "to": "/home/movie/comingSoon"
+    }
+  ]

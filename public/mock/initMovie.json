@@ -1,0 +1,263 @@
+{
+  "coming": [],
+  "movieIds": [
+    1301459,
+    1277644,
+    1258163,
+    247949,
+    246300,
+    1250662,
+    1216179,
+    1217041,
+    1217125,
+    1227006,
+    518396,
+    1284949
+  ],
+  "stid": "576591972453269000",
+  "stids": [
+    {
+      "movieId": 1301459,
+      "stid": "576591972453269000_a1301459_c0"
+    },
+    {
+      "movieId": 1277644,
+      "stid": "576591972453269000_a1277644_c1"
+    },
+    {
+      "movieId": 1258163,
+      "stid": "576591972453269000_a1258163_c2"
+    },
+    {
+      "movieId": 247949,
+      "stid": "576591972453269000_a247949_c3"
+    },
+    {
+      "movieId": 246300,
+      "stid": "576591972453269000_a246300_c4"
+    },
+    {
+      "movieId": 1250662,
+      "stid": "576591972453269000_a1250662_c5"
+    },
+    {
+      "movieId": 1216179,
+      "stid": "576591972453269000_a1216179_c6"
+    },
+    {
+      "movieId": 1217041,
+      "stid": "576591972453269000_a1217041_c7"
+    },
+    {
+      "movieId": 1217125,
+      "stid": "576591972453269000_a1217125_c8"
+    },
+    {
+      "movieId": 1227006,
+      "stid": "576591972453269000_a1227006_c9"
+    },
+    {
+      "movieId": 518396,
+      "stid": "576591972453269000_a518396_c10"
+    },
+    {
+      "movieId": 1284949,
+      "stid": "576591972453269000_a1284949_c11"
+    }
+  ],
+  "total": 12,
+  "movieList": [
+    {
+      "id": 1301459,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/moviemachine/f222062948e495a1acff768fe7fa5b0f2377507.jpg",
+      "version": "",
+      "nm": "海林都",
+      "preShow": false,
+      "sc": 0,
+      "globalReleased": true,
+      "wish": 241,
+      "star": "图门巴雅尔,高伊罕,安赫尼玛",
+      "rt": "2019-11-21",
+      "showInfo": "今天3家影院放映9场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1277644,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/moviemachine/19d48b1fd4f4af5c8c8e1c780a26fa431567220.jpg",
+      "version": "",
+      "nm": "两只老虎",
+      "preShow": false,
+      "sc": 7.8,
+      "globalReleased": true,
+      "wish": 96289,
+      "star": "葛优,乔杉,赵薇",
+      "rt": "2019-11-29",
+      "showInfo": "今天3家影院放映9场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1258163,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/dd488887e8a1c8ab4723eee4026d25aa1973142.jpg",
+      "version": "",
+      "nm": "利刃出鞘",
+      "preShow": false,
+      "sc": 8.8,
+      "globalReleased": true,
+      "wish": 32096,
+      "star": "丹尼尔·克雷格,克里斯·埃文斯,安娜·德·阿玛斯",
+      "rt": "2019-11-29",
+      "showInfo": "今天3家影院放映9场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 247949,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/moviemachine/58ee13be6dc60bf5e636cf915bbbaaa55787785.jpg",
+      "version": "v3d imax",
+      "nm": "冰雪奇缘2",
+      "preShow": false,
+      "sc": 8.9,
+      "globalReleased": true,
+      "wish": 204361,
+      "star": "克里斯汀·贝尔,伊迪娜·门泽尔,乔纳森·格罗夫",
+      "rt": "2019-11-22",
+      "showInfo": "今天3家影院放映5场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 246300,
+      "haspromotionTag": false,
+      "img": "http://p1.meituan.net/w.h/movie/b9abe12e6bd785d29abef9c98518eec62044645.jpg",
+      "version": "",
+      "nm": "一生有你2019",
+      "preShow": false,
+      "sc": 7.6,
+      "globalReleased": true,
+      "wish": 125226,
+      "star": "徐娇,谢彬彬,晏紫东",
+      "rt": "2019-11-29",
+      "showInfo": "今天2家影院放映3场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1250662,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/06aafa51a56e6e1888095373a1d00c3d1123868.jpg",
+      "version": "",
+      "nm": "大约在冬季",
+      "preShow": false,
+      "sc": 8.2,
+      "globalReleased": true,
+      "wish": 76357,
+      "star": "马思纯,霍建华,魏大勋",
+      "rt": "2019-11-15",
+      "showInfo": "今天1家影院放映2场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1216179,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/42562ed224f40013d608fc0551bc298c3602695.jpg",
+      "version": "v3d imax",
+      "nm": "冰峰暴",
+      "preShow": false,
+      "sc": 7.9,
+      "globalReleased": true,
+      "wish": 25040,
+      "star": "张静初,役所广司,林柏宏",
+      "rt": "2019-11-29",
+      "showInfo": "今天2家影院放映2场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1217041,
+      "haspromotionTag": false,
+      "img": "http://p1.meituan.net/w.h/movie/6d1a970c7fefb016006b0af099d8ff38867262.jpg",
+      "version": "",
+      "nm": "南方车站的聚会",
+      "preShow": false,
+      "sc": 0,
+      "globalReleased": false,
+      "wish": 159392,
+      "star": "胡歌,桂纶镁,廖凡",
+      "rt": "2019-12-06",
+      "showInfo": "2019-12-06 本周五上映",
+      "showst": 4,
+      "wishst": 0
+    },
+    {
+      "id": 1217125,
+      "haspromotionTag": false,
+      "img": "http://p1.meituan.net/w.h/movie/504168c45c1924fb48d6ff5478d02c612662068.jpg",
+      "version": "v3d imax",
+      "nm": "勇敢者游戏2：再战巅峰",
+      "preShow": false,
+      "sc": 0,
+      "globalReleased": false,
+      "wish": 106536,
+      "star": "道恩·强森,凯伦·吉兰,杰克·布莱克",
+      "rt": "2019-12-06",
+      "showInfo": "2019-12-06 本周五上映",
+      "showst": 4,
+      "wishst": 0
+    },
+    {
+      "id": 1227006,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/2cbc83f180080382b7754652b04718152049777.jpg",
+      "version": "",
+      "nm": "吹哨人",
+      "preShow": false,
+      "sc": 0,
+      "globalReleased": false,
+      "wish": 51175,
+      "star": "雷佳音,汤唯,齐溪",
+      "rt": "2019-12-06",
+      "showInfo": "2019-12-06 本周五上映",
+      "showst": 4,
+      "wishst": 0
+    },
+    {
+      "id": 518396,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/d344950640ecea1622a190cb6c4d0028185114.jpg",
+      "version": "",
+      "nm": "衣柜里的冒险王",
+      "preShow": false,
+      "sc": 7.9,
+      "globalReleased": true,
+      "wish": 17709,
+      "star": "丹努什,贝热尼丝·贝乔,艾琳·莫里亚蒂",
+      "rt": "2019-11-29",
+      "showInfo": "今天1家影院放映1场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1284949,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/68ff3f7ce748da0d1d624e13c5672d532084613.jpg",
+      "version": "",
+      "nm": "平原上的夏洛克",
+      "preShow": false,
+      "sc": 8.6,
+      "globalReleased": true,
+      "wish": 11608,
+      "star": "张占义,宿树河,徐朝英",
+      "rt": "2019-11-29",
+      "showInfo": "今天1家影院放映1场",
+      "showst": 3,
+      "wishst": 0
+    }
+  ]
+}
