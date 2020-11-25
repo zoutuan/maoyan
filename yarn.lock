@@ -710,6 +710,32 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@better-scroll/core@^2.0.0-beta.2", "@better-scroll/core@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@better-scroll/core/-/core-2.0.5.tgz#59d4f3c7b739c177ab61b07d0e0e7408c137edf2"
+  integrity sha512-1d97iO6ACcn5+f56Qy8KEmVTx+oYRwRJfTqbCEzOeJWve+TY9nv8NXbd9lVTAshhSMDC2v2Wvx6USnpwbaT/iw==
+  dependencies:
+    "@better-scroll/shared-utils" "^2.0.5"
+
+"@better-scroll/mouse-wheel@^2.0.0-beta.2":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@better-scroll/mouse-wheel/-/mouse-wheel-2.0.5.tgz#2fbfff82c51aa522521fb756e38f99e880eed531"
+  integrity sha512-1J+R+qGH4jD0izDjICGcimrDgEix2Aanuet95mMREtndiqm13BquE2ebcboYUlAr8ND6PD358JNU/xptAL4YEA==
+  dependencies:
+    "@better-scroll/core" "^2.0.5"
+
+"@better-scroll/pull-up@^2.0.0-beta.2":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@better-scroll/pull-up/-/pull-up-2.0.5.tgz#3240f6dce4692ca91b2695a27cd7b950f07873f2"
+  integrity sha512-BJRtbFE7W92JQNpMHvCS49gs8YYGnG9G6DvuS1I6TVBnC7TAlBc0A9hXCYN/hJo1GXNlRg5bkEPO7TDVlQdZXQ==
+  dependencies:
+    "@better-scroll/core" "^2.0.5"
+
+"@better-scroll/shared-utils@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@better-scroll/shared-utils/-/shared-utils-2.0.5.tgz#50919ee66471e53e60b64e20a19c3069825fa8f9"
+  integrity sha512-u3iSRVbhIzLlRfPoDdkg7d8dOOWuTu6uICdCTUIjIlF0Kx/EIyZ/1n38ZBVDQbdkTNs/FsAacJt14JW4q6uBsQ==
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.npm.taobao.org/@hapi/address/download/@hapi/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -1504,6 +1530,13 @@ aws4@^1.8.0:
   version "1.9.0"
   resolved "https://registry.npm.taobao.org/aws4/download/aws4-1.9.0.tgz?cache=0&sync_timestamp=1574808901079&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faws4%2Fdownload%2Faws4-1.9.0.tgz#24390e6ad61386b0a747265754d2a17219de862c"
   integrity sha1-JDkOatYThrCnRyZXVNKhchnehiw=
+
+axios@^0.19.0:
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+  dependencies:
+    follow-redirects "1.5.10"
 
 babel-eslint@^10.0.3:
   version "10.0.3"
@@ -2644,6 +2677,13 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
+debug@=3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  dependencies:
+    ms "2.0.0"
+
 debug@^3.0.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
   version "3.2.6"
   resolved "https://registry.npm.taobao.org/debug/download/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
@@ -3568,6 +3608,13 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
+follow-redirects@1.5.10:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
+  dependencies:
+    debug "=3.1.0"
+
 follow-redirects@^1.0.0:
   version "1.9.0"
   resolved "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.9.0.tgz#8d5bcdc65b7108fe1508649c79c12d732dcedb4f"
@@ -3942,9 +3989,9 @@ hex-color-regex@^1.1.0:
   integrity sha1-TAb8y0YC/iYCs8k9+C1+fb8aio4=
 
 highlight.js@^9.6.0:
-  version "9.16.2"
-  resolved "https://registry.npm.taobao.org/highlight.js/download/highlight.js-9.16.2.tgz#68368d039ffe1c6211bcc07e483daf95de3e403e"
-  integrity sha1-aDaNA5/+HGIRvMB+SD2vld4+QD4=
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
