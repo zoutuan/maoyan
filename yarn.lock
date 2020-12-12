@@ -710,6 +710,32 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@better-scroll/core@^2.0.0-beta.2", "@better-scroll/core@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@better-scroll/core/-/core-2.0.6.tgz#31df475113f68c15a273eb3ad0ef725b3f2d68e6"
+  integrity sha512-mL22NtylK8+kqW8c0LZiXKElrCvvwydC5//Pny4bATtIJH8aWa+CBTMj5Jx02LodP1yEYFdj6xXMJ3ygtg4IIg==
+  dependencies:
+    "@better-scroll/shared-utils" "^2.0.6"
+
+"@better-scroll/mouse-wheel@^2.0.0-beta.2":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@better-scroll/mouse-wheel/-/mouse-wheel-2.0.6.tgz#32c28829c3f335726e59eb472a15586ddd75336c"
+  integrity sha512-GPF37LD8gUmGGZW5IcsBanqCP72FBoB068wwe9FuNiFJpCPkzGz5xmUNw7j7hRtQwVsAblDx6sb9DREtTL+lqQ==
+  dependencies:
+    "@better-scroll/core" "^2.0.6"
+
+"@better-scroll/pull-up@^2.0.0-beta.2":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@better-scroll/pull-up/-/pull-up-2.0.6.tgz#5e5786d589a46714f83e8c4c0689401749dfd98f"
+  integrity sha512-mSAoIZyfwLImedCAqaj/ZK5sQrvzKlecujA7niwbLfAlj49FnO4rwhQDub5m7I4EK9QQnhP0sTb7LuNBPCm0hw==
+  dependencies:
+    "@better-scroll/core" "^2.0.6"
+
+"@better-scroll/shared-utils@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@better-scroll/shared-utils/-/shared-utils-2.0.6.tgz#e1051feda90bdf44845abf622034d9fc58e03f33"
+  integrity sha512-mtkfkUwVqW+0eJaSJzEfGrgLMFzwdCzNKaQlyadWkG4IEFoDLOqrxcHFRFYGfSxPDGwPyznacKPwm8xTvw8LIg==
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.npm.taobao.org/@hapi/address/download/@hapi/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -1504,6 +1530,13 @@ aws4@^1.8.0:
   version "1.9.0"
   resolved "https://registry.npm.taobao.org/aws4/download/aws4-1.9.0.tgz?cache=0&sync_timestamp=1574808901079&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faws4%2Fdownload%2Faws4-1.9.0.tgz#24390e6ad61386b0a747265754d2a17219de862c"
   integrity sha1-JDkOatYThrCnRyZXVNKhchnehiw=
+
+axios@^0.19.0:
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+  dependencies:
+    follow-redirects "1.5.10"
 
 babel-eslint@^10.0.3:
   version "10.0.3"
@@ -2644,6 +2677,13 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
+debug@=3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  dependencies:
+    ms "2.0.0"
+
 debug@^3.0.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
   version "3.2.6"
   resolved "https://registry.npm.taobao.org/debug/download/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
@@ -3568,6 +3608,13 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
+follow-redirects@1.5.10:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
+  dependencies:
+    debug "=3.1.0"
+
 follow-redirects@^1.0.0:
   version "1.9.0"
   resolved "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.9.0.tgz#8d5bcdc65b7108fe1508649c79c12d732dcedb4f"
@@ -4241,9 +4288,9 @@ inherits@2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.npm.taobao.org/ini/download/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha1-7uJfVtscnsYIXgwid4CD9Zar+Sc=
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 inquirer@^6.2.2:
   version "6.5.2"
